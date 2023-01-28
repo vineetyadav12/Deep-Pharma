@@ -1,0 +1,5 @@
+<h1>Prepare Deep Pharma Sales XML</h1>
+<h3 *ngIf="totalRecords">Total Records: {{ totalRecords }}</h3>
+<input type="file" (change)="onFileChange($event)" />
+
+<button (click)="download()">Download</button>
